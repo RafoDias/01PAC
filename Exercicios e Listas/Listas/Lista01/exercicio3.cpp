@@ -28,13 +28,16 @@ char getArgv;
 int main(int argc, // Numero de strings no array argc
             char* argv[]) // Array de strings de argumentos de linha de comando
 {
+    // Esclarecimentos quanto aos argumentos que forem passados:
     printf("\nNumber of arguments passed: %d", argc);
     printf("\n----Following are the command line arguments passed----\n");
     for (int i = 0; i < argc; i++)
     {
         printf("argv[%d]: %s\n", i, argv[i]);
     }
+    cout << endl;
 
+    // Codigo do programa
     getArgv = argv[1][0];
 
     if (argc != 2)
@@ -101,7 +104,7 @@ int main(int argc, // Numero de strings no array argc
         cout << "a: " << a << "\nb: " << b;
         return 0;
     }
-    
+    // Se o argumento nao se enquadra nas condicoes acima, entao nao e valido
     cout << "O argumento especificado nao e valido";
     return 0;
 }
