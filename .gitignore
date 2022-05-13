@@ -33,3 +33,5 @@
 
 # Folders
 Livros/
+.vscode/
+vscode/
