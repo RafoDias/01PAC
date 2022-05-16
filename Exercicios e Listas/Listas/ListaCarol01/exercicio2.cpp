@@ -5,7 +5,11 @@ using namespace std;
 
 int MinutoDoDia(int hora, int minutos)
 {
-    if ((hora > 23) || (minutos > 59)) { cout << "O valor da hora ou dos minutos nao e valido"; return 0;}
+    if ((hora > 23) || (minutos > 59)) 
+    {
+        cout << "O valor da hora ou dos minutos nao e valido"; 
+        return 0;
+    }
     
     int minutoDoDia = minutos + (hora * 60);
 
