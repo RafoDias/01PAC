@@ -38,7 +38,7 @@ void SomaFracao(int a, int b, int c, int d)
 {
     int num, den;
     num = (a * d) + (b * c);
-    den = (b * c);
+    den = (b * d);
     ImprimeSimplificada(num, den);
 }
 
