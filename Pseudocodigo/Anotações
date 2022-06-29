@@ -1,4 +1,8 @@
-1- Deve evidenciar:
-    Os blocos de código
-    As mudanças feitas nos blocos
-Possui o mesmo número de passos no "passo a passo"
+Psudocódigo não é uma linguagem de programação:
+    Não se preocupar tanto com a linguagem;
+    Não há uma sintaxe estrita:
+        O importante é ser claro e logicamente coerente
+
+Pseudocódigo é feito pra ser de alto nível e representar um algoritmo sem estar ligado a uma linguagem específica;
+    É alto nível porque estamos buscando apenas a ideia, não lidando com detalhes tecnicos da tecnologia como identação
+

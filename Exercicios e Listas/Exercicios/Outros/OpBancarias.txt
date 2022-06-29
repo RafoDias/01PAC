@@ -1,0 +1,3 @@
+Projetar e implementar um sistema orientado a objetos para operar um caixa eletrônico de banco. 
+O sistema deve ser capaz de realizar consultas (saldo / extrato), pagamentos (boleto), transferências 
+(mesmo banco / banco diferente), depósitos (dinheiro / cheque) e saques.
