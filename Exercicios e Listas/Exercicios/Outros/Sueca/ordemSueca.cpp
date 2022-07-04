@@ -65,6 +65,17 @@ int main()
         }
     }
 
+    cout << "=================================================";
+    for (int i = 0; i < TOTALCARTAS; i++) // Preenchendo o arquivo de saída
+    {
+        if (i % 5 == 0) cout << endl;
+
+        cout << i << ": " << todasCartas[i][0];
+
+        if (i == TOTALCARTAS-1) cout << endl;
+        else if(!(i % 5 == 4)) cout << " | ";
+    }
+
     Count_Sort(todasCartas, TOTALCARTAS);
 
     ofstream newFile("sortedSueca.txt");
@@ -73,6 +84,8 @@ int main()
     {
         newFile << todasCartas[i][0] << endl;
     }
+
+    cout << "=================================================\n\nAcima esta o array antes de ser ordenado.\nConfira o arquivo sortedSueca.txt!\n";
     return 0;
 }
     
